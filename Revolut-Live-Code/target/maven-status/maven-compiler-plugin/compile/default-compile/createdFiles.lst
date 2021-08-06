@@ -1,0 +1,5 @@
+test/HelloWorld.class
+com/revolut/seourl/UrlManipulation.class
+com/revolut/seourl/exception/UrlManipulationException.class
+com/revolut/seourl/Solution.class
+com/revolut/seourl/impl/SeoUrl.class

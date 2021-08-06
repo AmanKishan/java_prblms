@@ -1,0 +1,9 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(š•ÿíşÿÿÿÿ8¨ÖÉÕ¡/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Œ‡İ8íÚÚÕ¡/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©«Ÿÿûÿÿÿÿ8ç¾õë¡/
+X	java:S125"<This block of commented-out lines of code should be removed.(½Ã¥à8–òİÕ¡/
+`
+java:S1854"CRemove this useless assignment to local variable "urlManipulation".(œ´™8ç’÷ë¡/
+Q
+java:S1481"4Remove this unused "urlManipulation" local variable.(œ´™8ç’÷ë¡/

@@ -4,6 +4,7 @@ public interface InterfaceB {
 
 	void foo();
 	
+
 	default void fooDefault() {
 		System.out.println("InterfaceB Default");
 	} 

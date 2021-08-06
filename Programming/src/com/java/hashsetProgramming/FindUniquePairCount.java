@@ -22,8 +22,6 @@ public class FindUniquePairCount {
 			System.out.println(set.size());
 
 		}
-	
-		
 	}
 }
 

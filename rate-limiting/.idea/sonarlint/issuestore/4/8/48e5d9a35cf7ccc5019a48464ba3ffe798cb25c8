@@ -1,0 +1,11 @@
+
+i
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(µêñƒúÿÿÿÿ
+P
+java:S1854"7Remove this useless assignment to local variable "stk".(µêñƒúÿÿÿÿ
+_
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(Ñ· Òúÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(™±¤þúÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(æ‡öû
+A
+java:S1481"(Remove this unused "stk" local variable.(µêñƒúÿÿÿÿ

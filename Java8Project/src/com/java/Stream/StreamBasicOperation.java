@@ -2,6 +2,8 @@ package com.java.Stream;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.BiConsumer;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -67,8 +69,6 @@ public class StreamBasicOperation {
 		//sort  in natural order
 		//strm.sorted().collect(Collectors.toList()).forEach(System.out::println);
 		//System.out.println("Total Count " + strm.count());
-		
-		
 		
 		
 	}

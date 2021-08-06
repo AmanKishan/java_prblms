@@ -1,0 +1,15 @@
+
+4
+java:S2386"Make member "ips" "protected".(Ö¹±¢
+j
+java:S1104"OMake ips a static final constant or non-public and provide accessors if needed.(¯ ²úÿÿÿÿ
+r
+java:S1104"UMake weightIps a static final constant or non-public and provide accessors if needed.(î›‚†8óêæ© /
+:
+java:S2386"Make this member "protected".(î›‚†8óêæ© /
+P
+java:S1118":Add a private constructor to hide the implicit public one.(šê¬
+L
+java:S1444"/Make this "public static weightIps" field final(î›‚†8óêæ© /
+D
+java:S1444")Make this "public static ips" field final(¯ ²úÿÿÿÿ

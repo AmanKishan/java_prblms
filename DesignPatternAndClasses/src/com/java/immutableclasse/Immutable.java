@@ -1,8 +1,11 @@
 package com.java.immutableclasse;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 public final class Immutable {
@@ -10,8 +13,9 @@ public final class Immutable {
 	private final int id;
 	private final String name;
 	private final Map<String, String> map;
+	private final List<Integer> list;
 
-	public Immutable(int id, String name, HashMap<String, String> map) {
+	public Immutable(int id, String name, HashMap<String, String> map, List<Integer> list) {
 
 		this.id = id;
 		this.name = name;
@@ -27,7 +31,7 @@ public final class Immutable {
 		}
 
 		this.map = tempMap;
-		
+		this.list = new ArrayList<Integer>(list);
 
 	}
 
@@ -40,7 +44,12 @@ public final class Immutable {
 	}
 
 	public Map<String, String> getMap() {
-		return Collections.unmodifiableMap(this.map);
+		return this.map;
+		//return Collections.unmodifiableMap(this.map);
+	}
+	
+	public List<Integer> getList(){
+		return new ArrayList<Integer>(list);
 	}
 	
 	
@@ -57,9 +66,15 @@ public final class Immutable {
 		map.put("Chaitra", "Citiustech");
 		int id = 2;
 		String name = "Partner";
-		Immutable im = new Immutable(id, name, map);
+		List<Integer> list = Arrays.asList(1,2,3);
+		
+		Immutable im = new Immutable(id, name, map,list);
+		
+		im.getList().add(3);
+		System.out.println(im.getList());
 		id = 3;
 		name = "NO";
+		
 		System.out.println(im.getId() == id);
 		System.out.println(im.getName() == name);
 System.out.println("sds");
@@ -68,6 +83,7 @@ System.out.println("sds");
 
 		System.out.println(im.getMap());
 		System.out.println(im.getMap().put("aman", "hello"));//run time error
+		System.out.println(im.getMap());
 		
 
 	}

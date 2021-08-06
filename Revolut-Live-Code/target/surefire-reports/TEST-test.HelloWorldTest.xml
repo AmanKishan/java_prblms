@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.HelloWorldTest" time="0.087" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/test-classes:/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/classes:/Users/amanrastogi/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/amanrastogi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/amanrastogi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/amanrastogi/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/amanrastogi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/amanrastogi/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/amanrastogi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/amanrastogi/.m2/repository/org/mockito/mockito-core/3.11.1/mockito-core-3.11.1.jar:/Users/amanrastogi/.m2/repository/net/bytebuddy/byte-buddy/1.11.2/byte-buddy-1.11.2.jar:/Users/amanrastogi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.2/byte-buddy-agent-1.11.2.jar:/Users/amanrastogi/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/amanrastogi/.m2/repository/org/mockito/mockito-junit-jupiter/3.11.1/mockito-junit-jupiter-3.11.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/surefire/surefirebooter17817069798849955014.jar /Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/surefire 2021-06-17T21-44-56_011-jvmRun1 surefire16318095353958844831tmp surefire_03830236253241197362tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/test-classes:/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/classes:/Users/amanrastogi/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/amanrastogi/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar:/Users/amanrastogi/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/amanrastogi/.m2/repository/org/junit/platform/junit-platform-engine/1.7.2/junit-platform-engine-1.7.2.jar:/Users/amanrastogi/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/amanrastogi/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/amanrastogi/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/amanrastogi/.m2/repository/org/mockito/mockito-core/3.11.1/mockito-core-3.11.1.jar:/Users/amanrastogi/.m2/repository/net/bytebuddy/byte-buddy/1.11.2/byte-buddy-1.11.2.jar:/Users/amanrastogi/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.2/byte-buddy-agent-1.11.2.jar:/Users/amanrastogi/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/amanrastogi/.m2/repository/org/mockito/mockito-junit-jupiter/3.11.1/mockito-junit-jupiter-3.11.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/amanrastogi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.8.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code/target/surefire/surefirebooter17817069798849955014.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.8+10-LTS"/>
+    <property name="user.name" value="amanrastogi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="US-ASCII"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/amanrastogi/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/b4/96x7q3m50c75l0qt80zgf74w0000gs/T/"/>
+    <property name="java.version" value="11.0.8"/>
+    <property name="user.dir" value="/Users/amanrastogi/programming/java_prblms/Revolut-Live-Code"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/amanrastogi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.8+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testMain" classname="test.HelloWorldTest" time="0.053"/>
+</testsuite>

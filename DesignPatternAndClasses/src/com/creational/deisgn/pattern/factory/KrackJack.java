@@ -1,5 +1,7 @@
 package com.creational.deisgn.pattern.factory;
 
+import java.lang.annotation.Documented;
+
 public class KrackJack extends AbstractParleBisCuit {
 
 	private String size;

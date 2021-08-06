@@ -9,7 +9,7 @@ public class DiamondClassImplementC implements InterfaceC{
 	
 	public static void main(String[] args) {
 		InterfaceA d = new DiamondClassImplementC();
-		d.fooDefault();//Rule 2 it print InterfaceC Default because its has high preperence than A and B 
+		d.fooDefault();//Rule 2 it print InterfaceC Default because its has high preference than A and B 
 	}
 
 }
